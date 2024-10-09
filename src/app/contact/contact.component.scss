@@ -1,0 +1,48 @@
+/* Center the form on the page */
+.contact-container {
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically */
+  min-height: 100vh; /* Full viewport height */
+  background-color: #f9f9f9; /* Optional: Background color for contrast */
+}
+
+/* Style adjustments */
+h2 {
+  color: #333;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px; /* Increased the form width */
+  width: 100%; /* Make sure it takes full width up to max-width */
+  background-color: #fff; /* Optional: Add background color for the form */
+  padding: 40px; /* Increased padding for more space inside */
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for better appearance */
+}
+
+label {
+  margin: 12px 0 4px; /* Added more space around labels */
+}
+
+input, textarea {
+  padding: 12px; /* Increased padding inside inputs */
+  margin-bottom: 20px; /* Added more space below inputs */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 12px; /* Increased button size */
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}

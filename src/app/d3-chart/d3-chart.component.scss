@@ -1,0 +1,13 @@
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px; // Adjust height as needed
+  width: 600px;
+}
+
+.arc text {
+  font-size: 5px;
+  fill: white; // Change this color as needed
+  text-anchor: middle; // Center the text
+}
